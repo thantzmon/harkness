@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "190DB79C375CC2293ABCB4983C575EE2B3EAA0FB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "190DB79C375CC2293ABCB4983C575EE2B3EAA0FB" : 0,
+    "78CEBD94FC52DCE625058FE6959F9449C7CD4A7B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "157A59AC-AD68-4619-AD5C-D6E49BF6426A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "190DB79C375CC2293ABCB4983C575EE2B3EAA0FB" : "harkness\/",
+    "78CEBD94FC52DCE625058FE6959F9449C7CD4A7B" : "GRDB.swift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "harkness",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "harkness\/harkness.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/horsesharks\/harkness.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "190DB79C375CC2293ABCB4983C575EE2B3EAA0FB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/groue\/GRDB.swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "78CEBD94FC52DCE625058FE6959F9449C7CD4A7B"
+    }
+  ]
+}

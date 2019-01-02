@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0618C2411CD7C3DB00A72FF3 /* Gateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618C2401CD7C3DB00A72FF3 /* Gateway.swift */; };
+		0618C2431CD7CA2200A72FF3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618C2421CD7CA2200A72FF3 /* Home.swift */; };
+		0618C2451CD7CDCE00A72FF3 /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618C2441CD7CDCE00A72FF3 /* Students.swift */; };
+		0618C2471CD8F3A200A72FF3 /* PrevHark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618C2461CD8F3A200A72FF3 /* PrevHark.swift */; };
+		0618C2491CD8F40D00A72FF3 /* HarkPrep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618C2481CD8F40D00A72FF3 /* HarkPrep.swift */; };
+		0618C24B1CD8F44D00A72FF3 /* WrapUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618C24A1CD8F44D00A72FF3 /* WrapUp.swift */; };
+		0618C24D1CD8F47300A72FF3 /* Harkness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618C24C1CD8F47300A72FF3 /* Harkness.swift */; };
+		06F87BC71CE0C64F0080692C /* DrawExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F87BC61CE0C64F0080692C /* DrawExamples.swift */; };
+		8E13F5E31D53BA7E00B752DF /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E13F5E21D53BA7E00B752DF /* settings.png */; };
+		8E1848AB1CEFD6B700FC333E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1848AA1CEFD6B700FC333E /* Main.storyboard */; };
+		8E1848AD1CEFD8A700FC333E /* CreateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1848AC1CEFD8A700FC333E /* CreateClass.swift */; };
+		8E573EC71CD53D8D00817B84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E573EC61CD53D8D00817B84 /* AppDelegate.swift */; };
+		8E573EC91CD53D8D00817B84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E573EC81CD53D8D00817B84 /* ViewController.swift */; };
+		8E573ECF1CD53D8D00817B84 /* harkness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E573ECD1CD53D8D00817B84 /* harkness.xcdatamodeld */; };
+		8E573ED11CD53D8D00817B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E573ED01CD53D8D00817B84 /* Assets.xcassets */; };
+		8E573ED41CD53D8D00817B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E573ED21CD53D8D00817B84 /* LaunchScreen.storyboard */; };
+		8E573EDF1CD53D8D00817B84 /* harknessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E573EDE1CD53D8D00817B84 /* harknessTests.swift */; };
+		8E573EEA1CD53D8D00817B84 /* harknessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E573EE91CD53D8D00817B84 /* harknessUITests.swift */; };
+		8E8312381D59170E00395F6F /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8312371D59170E00395F6F /* Notes.swift */; };
+		8EB884061D1B2BCE00B6D1DF /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB884051D1B2BCE00B6D1DF /* delete.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E573EDB1CD53D8D00817B84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E573EBB1CD53D8D00817B84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E573EC21CD53D8D00817B84;
+			remoteInfo = harkness;
+		};
+		8E573EE61CD53D8D00817B84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E573EBB1CD53D8D00817B84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E573EC21CD53D8D00817B84;
+			remoteInfo = harkness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0618C2401CD7C3DB00A72FF3 /* Gateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gateway.swift; path = Harkness/Gateway.swift; sourceTree = SOURCE_ROOT; };
+		0618C2421CD7CA2200A72FF3 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Home.swift; path = Harkness/Home.swift; sourceTree = SOURCE_ROOT; };
+		0618C2441CD7CDCE00A72FF3 /* Students.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Students.swift; path = Harkness/Students.swift; sourceTree = SOURCE_ROOT; };
+		0618C2461CD8F3A200A72FF3 /* PrevHark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrevHark.swift; path = Harkness/PrevHark.swift; sourceTree = SOURCE_ROOT; };
+		0618C2481CD8F40D00A72FF3 /* HarkPrep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HarkPrep.swift; path = Harkness/HarkPrep.swift; sourceTree = SOURCE_ROOT; };
+		0618C24A1CD8F44D00A72FF3 /* WrapUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WrapUp.swift; path = Harkness/WrapUp.swift; sourceTree = SOURCE_ROOT; };
+		0618C24C1CD8F47300A72FF3 /* Harkness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Harkness.swift; path = Harkness/Harkness.swift; sourceTree = SOURCE_ROOT; };
+		06F87BC61CE0C64F0080692C /* DrawExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawExamples.swift; path = Harkness/DrawExamples.swift; sourceTree = SOURCE_ROOT; };
+		8E13F5E21D53BA7E00B752DF /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		8E1848AA1CEFD6B700FC333E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8E1848AC1CEFD8A700FC333E /* CreateClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateClass.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		8E573EC31CD53D8D00817B84 /* harkness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = harkness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E573EC61CD53D8D00817B84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E573EC81CD53D8D00817B84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E573ECE1CD53D8D00817B84 /* harkness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = harkness.xcdatamodel; sourceTree = "<group>"; };
+		8E573ED01CD53D8D00817B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E573ED31CD53D8D00817B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E573ED51CD53D8D00817B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E573EDA1CD53D8D00817B84 /* harknessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = harknessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E573EDE1CD53D8D00817B84 /* harknessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harknessTests.swift; sourceTree = "<group>"; };
+		8E573EE01CD53D8D00817B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E573EE51CD53D8D00817B84 /* harknessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = harknessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E573EE91CD53D8D00817B84 /* harknessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harknessUITests.swift; sourceTree = "<group>"; };
+		8E573EEB1CD53D8D00817B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8312371D59170E00395F6F /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		8EB884051D1B2BCE00B6D1DF /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E573EC01CD53D8D00817B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E573ED71CD53D8D00817B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E573EE21CD53D8D00817B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E573EBA1CD53D8D00817B84 = {
+			isa = PBXGroup;
+			children = (
+				8E573EC51CD53D8D00817B84 /* harkness */,
+				8E573EDD1CD53D8D00817B84 /* harknessTests */,
+				8E573EE81CD53D8D00817B84 /* harknessUITests */,
+				8E573EC41CD53D8D00817B84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E573EC41CD53D8D00817B84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E573EC31CD53D8D00817B84 /* harkness.app */,
+				8E573EDA1CD53D8D00817B84 /* harknessTests.xctest */,
+				8E573EE51CD53D8D00817B84 /* harknessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E573EC51CD53D8D00817B84 /* harkness */ = {
+			isa = PBXGroup;
+			children = (
+				8EB884051D1B2BCE00B6D1DF /* delete.png */,
+				8E13F5E21D53BA7E00B752DF /* settings.png */,
+				8E1848AA1CEFD6B700FC333E /* Main.storyboard */,
+				8E573EC61CD53D8D00817B84 /* AppDelegate.swift */,
+				8E573EC81CD53D8D00817B84 /* ViewController.swift */,
+				0618C2421CD7CA2200A72FF3 /* Home.swift */,
+				0618C2441CD7CDCE00A72FF3 /* Students.swift */,
+				0618C2461CD8F3A200A72FF3 /* PrevHark.swift */,
+				0618C2481CD8F40D00A72FF3 /* HarkPrep.swift */,
+				0618C24A1CD8F44D00A72FF3 /* WrapUp.swift */,
+				0618C24C1CD8F47300A72FF3 /* Harkness.swift */,
+				8E573ED01CD53D8D00817B84 /* Assets.xcassets */,
+				8E573ED21CD53D8D00817B84 /* LaunchScreen.storyboard */,
+				8E573ED51CD53D8D00817B84 /* Info.plist */,
+				8E573ECD1CD53D8D00817B84 /* harkness.xcdatamodeld */,
+				0618C2401CD7C3DB00A72FF3 /* Gateway.swift */,
+				06F87BC61CE0C64F0080692C /* DrawExamples.swift */,
+				8E1848AC1CEFD8A700FC333E /* CreateClass.swift */,
+				8E8312371D59170E00395F6F /* Notes.swift */,
+			);
+			path = harkness;
+			sourceTree = "<group>";
+		};
+		8E573EDD1CD53D8D00817B84 /* harknessTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E573EDE1CD53D8D00817B84 /* harknessTests.swift */,
+				8E573EE01CD53D8D00817B84 /* Info.plist */,
+			);
+			path = harknessTests;
+			sourceTree = "<group>";
+		};
+		8E573EE81CD53D8D00817B84 /* harknessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E573EE91CD53D8D00817B84 /* harknessUITests.swift */,
+				8E573EEB1CD53D8D00817B84 /* Info.plist */,
+			);
+			path = harknessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E573EC21CD53D8D00817B84 /* harkness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E573EEE1CD53D8D00817B84 /* Build configuration list for PBXNativeTarget "harkness" */;
+			buildPhases = (
+				8E573EBF1CD53D8D00817B84 /* Sources */,
+				8E573EC01CD53D8D00817B84 /* Frameworks */,
+				8E573EC11CD53D8D00817B84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = harkness;
+			productName = harkness;
+			productReference = 8E573EC31CD53D8D00817B84 /* harkness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E573ED91CD53D8D00817B84 /* harknessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E573EF11CD53D8D00817B84 /* Build configuration list for PBXNativeTarget "harknessTests" */;
+			buildPhases = (
+				8E573ED61CD53D8D00817B84 /* Sources */,
+				8E573ED71CD53D8D00817B84 /* Frameworks */,
+				8E573ED81CD53D8D00817B84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E573EDC1CD53D8D00817B84 /* PBXTargetDependency */,
+			);
+			name = harknessTests;
+			productName = harknessTests;
+			productReference = 8E573EDA1CD53D8D00817B84 /* harknessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E573EE41CD53D8D00817B84 /* harknessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E573EF41CD53D8D00817B84 /* Build configuration list for PBXNativeTarget "harknessUITests" */;
+			buildPhases = (
+				8E573EE11CD53D8D00817B84 /* Sources */,
+				8E573EE21CD53D8D00817B84 /* Frameworks */,
+				8E573EE31CD53D8D00817B84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E573EE71CD53D8D00817B84 /* PBXTargetDependency */,
+			);
+			name = harknessUITests;
+			productName = harknessUITests;
+			productReference = 8E573EE51CD53D8D00817B84 /* harknessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E573EBB1CD53D8D00817B84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tom Hantzmon";
+				TargetAttributes = {
+					8E573EC21CD53D8D00817B84 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 99C5UYTHY4;
+					};
+					8E573ED91CD53D8D00817B84 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8E573EC21CD53D8D00817B84;
+					};
+					8E573EE41CD53D8D00817B84 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8E573EC21CD53D8D00817B84;
+					};
+				};
+			};
+			buildConfigurationList = 8E573EBE1CD53D8D00817B84 /* Build configuration list for PBXProject "harkness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E573EBA1CD53D8D00817B84;
+			productRefGroup = 8E573EC41CD53D8D00817B84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E573EC21CD53D8D00817B84 /* harkness */,
+				8E573ED91CD53D8D00817B84 /* harknessTests */,
+				8E573EE41CD53D8D00817B84 /* harknessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E573EC11CD53D8D00817B84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB884061D1B2BCE00B6D1DF /* delete.png in Resources */,
+				8E13F5E31D53BA7E00B752DF /* settings.png in Resources */,
+				8E1848AB1CEFD6B700FC333E /* Main.storyboard in Resources */,
+				8E573ED41CD53D8D00817B84 /* LaunchScreen.storyboard in Resources */,
+				8E573ED11CD53D8D00817B84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E573ED81CD53D8D00817B84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E573EE31CD53D8D00817B84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E573EBF1CD53D8D00817B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0618C24D1CD8F47300A72FF3 /* Harkness.swift in Sources */,
+				8E8312381D59170E00395F6F /* Notes.swift in Sources */,
+				06F87BC71CE0C64F0080692C /* DrawExamples.swift in Sources */,
+				8E1848AD1CEFD8A700FC333E /* CreateClass.swift in Sources */,
+				8E573EC91CD53D8D00817B84 /* ViewController.swift in Sources */,
+				0618C24B1CD8F44D00A72FF3 /* WrapUp.swift in Sources */,
+				8E573EC71CD53D8D00817B84 /* AppDelegate.swift in Sources */,
+				0618C2431CD7CA2200A72FF3 /* Home.swift in Sources */,
+				0618C2451CD7CDCE00A72FF3 /* Students.swift in Sources */,
+				0618C2411CD7C3DB00A72FF3 /* Gateway.swift in Sources */,
+				0618C2471CD8F3A200A72FF3 /* PrevHark.swift in Sources */,
+				8E573ECF1CD53D8D00817B84 /* harkness.xcdatamodeld in Sources */,
+				0618C2491CD8F40D00A72FF3 /* HarkPrep.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E573ED61CD53D8D00817B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E573EDF1CD53D8D00817B84 /* harknessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E573EE11CD53D8D00817B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E573EEA1CD53D8D00817B84 /* harknessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E573EDC1CD53D8D00817B84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E573EC21CD53D8D00817B84 /* harkness */;
+			targetProxy = 8E573EDB1CD53D8D00817B84 /* PBXContainerItemProxy */;
+		};
+		8E573EE71CD53D8D00817B84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E573EC21CD53D8D00817B84 /* harkness */;
+			targetProxy = 8E573EE61CD53D8D00817B84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E573ED21CD53D8D00817B84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E573ED31CD53D8D00817B84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E573EEC1CD53D8D00817B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8E573EED1CD53D8D00817B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E573EEF1CD53D8D00817B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = harkness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = horsesharks.harkness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8E573EF01CD53D8D00817B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = harkness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = horsesharks.harkness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		8E573EF21CD53D8D00817B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = harknessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = horsesharks.harknessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/harkness.app/harkness";
+			};
+			name = Debug;
+		};
+		8E573EF31CD53D8D00817B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = harknessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = horsesharks.harknessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/harkness.app/harkness";
+			};
+			name = Release;
+		};
+		8E573EF51CD53D8D00817B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = harknessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = horsesharks.harknessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = harkness;
+			};
+			name = Debug;
+		};
+		8E573EF61CD53D8D00817B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = harknessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = horsesharks.harknessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = harkness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E573EBE1CD53D8D00817B84 /* Build configuration list for PBXProject "harkness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E573EEC1CD53D8D00817B84 /* Debug */,
+				8E573EED1CD53D8D00817B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E573EEE1CD53D8D00817B84 /* Build configuration list for PBXNativeTarget "harkness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E573EEF1CD53D8D00817B84 /* Debug */,
+				8E573EF01CD53D8D00817B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E573EF11CD53D8D00817B84 /* Build configuration list for PBXNativeTarget "harknessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E573EF21CD53D8D00817B84 /* Debug */,
+				8E573EF31CD53D8D00817B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E573EF41CD53D8D00817B84 /* Build configuration list for PBXNativeTarget "harknessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E573EF51CD53D8D00817B84 /* Debug */,
+				8E573EF61CD53D8D00817B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E573ECD1CD53D8D00817B84 /* harkness.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E573ECE1CD53D8D00817B84 /* harkness.xcdatamodel */,
+			);
+			currentVersion = 8E573ECE1CD53D8D00817B84 /* harkness.xcdatamodel */;
+			path = harkness.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E573EBB1CD53D8D00817B84 /* Project object */;
+}
